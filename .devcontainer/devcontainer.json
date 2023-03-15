@@ -1,5 +1,22 @@
+
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "deno.enable": true,
+        "deno.lint": true,
+        "deno.unstable": true,
+        "deno.config": "deno.json",
+        "editor.defaultFormatter": "denoland.vscode-deno",
+        "editor.tabSize": 2
+      },
+      "extensions": [
+        "denoland.vscode-deno"
+      ]
+    }
+  },
+  "remoteUser": "vscode",
   "features": {
     "ghcr.io/devcontainers-contrib/features/deno:1": {},
     "ghcr.io/devcontainers/features/node:1": {}
