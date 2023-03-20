@@ -1,4 +1,4 @@
-# set_schedule
+# schedule
 
 A task scheduler for Deno.
 Provides `setSchedule` like `setTimeout` and `setInterval`.
