@@ -6,7 +6,7 @@ Provides `setSchedule` like `setTimeout` and `setInterval`.
 ## Usage
 
 ```ts
-import { setSchedule, clearSchedule } from 'https://deno.land/x/set_schedule@1.0.0/mod.ts'
+import { setSchedule, clearSchedule } from 'https://deno.land/x/schedule@1.0.0/mod.ts'
 
 // Execute the task only once
 setSchedule(() => {
@@ -52,7 +52,7 @@ Use your favorite library for `generator` creation. I recommend my [unit_date](h
 
 
 ```ts
-import { setSchedule, clearSchedule } from 'https://deno.land/x/set_schedule@1.0.0/mod.ts'
+import { setSchedule, clearSchedule } from 'https://deno.land/x/schedule@1.0.0/mod.ts'
 import { add, next } from 'https://deno.land/x/unit_date@0.1.1/mod.ts'
 
 // Execute every 15 minutes from the current time
